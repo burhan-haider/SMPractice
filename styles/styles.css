@@ -1,6 +1,54 @@
-body, html {
-    margin: 0;
-    padding: 0;
+body {
+  background-color: #fac8cd;
 }
 
-/* Use this file for all CSS in the page. */
+.login-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.18);
+}
+
+.form-control {
+  background-color: #e1e1e1;
+  color: #70798c;
+}
+
+.btn-primary {
+  font-size: 12px;
+}
+
+input {
+  position: relative;
+}
+
+a {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #629677;
+  justify-content: center;
+  width: 100px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.heading {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 20px; 
+}
+
+#password {
+  margin-top: 25px; 
+}
+
+.d-grid .btn {
+  margin-top: 20px; 
+}
