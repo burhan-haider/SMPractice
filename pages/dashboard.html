@@ -1,11 +1,201 @@
-<html lang='en'>
-<head>
-    <meta charset='UTF-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SMW - Dashboard</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/styles/styles_dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="left-sidebar">
+      <div class="logo-header">
+        <h2>
+          <img
+            class="logo"
+            src="https://via.placeholder.com/50x50.png?text=Logo"
+          />Social Center
+        </h2>
+      </div>
+      <div class="user-box">
+        <img
+          class="avatar"
+          src="https://via.placeholder.com/50x50.png?text=Avatar"
+        />
+        <div class="post-author">
+          <h3>John Doe</h3>
+          <p>@johndoe</p>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <h3><i class="fa fa-th-large" aria-hidden="true"></i>Feed</h3>
+      </div>
+
+      <div class="sidebar">
+        <h3><i class="fa fa-user"></i>Friends</h3>
+      </div>
+      <div class="sidebar">
+        <h3><i class="fa fa-users" aria-hidden="true"></i>Groups</h3>
+      </div>
+      <div class="sidebar">
+        <h3><i class="fa fa-calendar" aria-hidden="true"></i>Events</h3>
+      </div>
+
+      <h4>People you follow</h4>
+
+      <div class="user-box1">
+        <img
+          class="avatar"
+          src="https://via.placeholder.com/50x50.png?text=Avatar"
+        />
+        <div class="post-author">
+          <h3>Steve Harrington</h3>
+          <p>@stevieee_</p>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <h1 class="title">Hello User</h1>
+        <div class="search-container">
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+      <p>Today is Monday, 20 october 2022</p>
+      <!-- <div class="message-box">
+        <p><img class="logo" src="https://via.placeholder.com/50x50.png?text=Logo">What's on your mind? </p>
+      </div> -->
+
+      <div class="post-box">
+        <form>
+          <div class="post-header">
+            <img
+              class="avatar"
+              src="https://via.placeholder.com/50x50.png?text=Avatar"
+            />
+            <div class="post-author">
+              <h3>John Doe</h3>
+            </div>
+          </div>
+          <textarea placeholder="What's on your mind?"></textarea>
+          <div class="post-actions">
+            <label for="post-image"><i class="fa fa-picture-o"></i></label>
+            <input id="post-image" type="file" accept="image/*" />
+            <button type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="big-box">
+        <div class="post-details">
+          <div class="post-header">
+            <img
+              class="avatar"
+              src="https://via.placeholder.com/50x50.png?text=Avatar"
+            />
+            <div class="post-author">
+              <h3>John Doe</h3>
+              <p>Saturday, 12th March, 2023 - 4:50PM</p>
+            </div>
+          </div>
+
+          <div class="post-body">
+            <p>
+              This is a sample post with an image. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Sed tempor velit in nisl aliquam, eu
+              fringilla dolor rhoncus. Etiam id augue ac lorem lacinia lacinia.
+              Sed vel ipsum ac enim lobortis ultricies.
+            </p>
+          </div>
+          <div class="post-image">
+            <img
+              src="https://via.placeholder.com/800x400.png?text=Post+Image"
+            />
+          </div>
+
+          <div class="post-actions">
+            <div class="likes-comments">
+              <button><i class="fa fa-thumbs-up"></i> Like</button>
+              <span>460 Likes</span>
+              <button><i class="fa fa-comment"></i> Comment</button>
+              <span>10 Comments</span>
+            </div>
+            <div class="arrow">
+              <i class="fa fa-share" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="big-box">
+        <div class="post-details">
+          <div class="post-header">
+            <img
+              class="avatar"
+              src="https://via.placeholder.com/50x50.png?text=Avatar"
+            />
+            <div class="post-author">
+              <h3>Steve Harrington</h3>
+              <p>Saturday, 12th March, 2023 - 3:30PM</p>
+            </div>
+          </div>
+
+          <div class="post-body">
+            <p>
+              I am bored....
+              <br />
+              Lets hangout at my place, anyone who is interested can comment
+              down below...
+              <br />
+              7:00 PM Sharp!
+            </p>
+          </div>
+
+          <div class="post-actions">
+            <div class="likes-comments">
+              <button><i class="fa fa-thumbs-up"></i> Like</button>
+              <span>230 Likes</span>
+              <button><i class="fa fa-comment"></i> Comment</button>
+              <span>10 Comments</span>
+            </div>
+            <div class="arrow">
+              <i class="fa fa-share" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-sidebar">
+      <div class="user-box1">
+        <img
+          class="avatar"
+          src="https://via.placeholder.com/50x50.png?text=Avatar"
+        />
+        <div class="post-author">
+          <h3>Steve Harrington</h3>
+          <p>@stevieee_</p>
+        </div>
+      </div>
+      <div class="chatbox">
+        <p class="m1">Hello</p>
+        <p id="m1">4:53 PM</p>
+        <p class="m2">
+          Hey, <br />
+          How are you?
+        </p>
+        <p id="m2">5:01 PM</p>
+      </div>
+
+      <div class="chatbar">
+        <textarea id="message" placeholder="Type..."></textarea>
+        <button id="send">
+          <i class="fa fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+  </body>
 </html>

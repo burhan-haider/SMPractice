@@ -2,6 +2,14 @@ body {
   background-color: #fac8cd;
 }
 
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
 .login-box {
   background-color: #fff;
   padding: 20px;
@@ -22,6 +30,7 @@ input {
   position: relative;
 }
 
+/* To style the submit button */
 a {
   position: relative;
   display: block;
@@ -41,14 +50,10 @@ a {
   text-transform: uppercase;
 }
 
-.form-group {
-  margin-bottom: 20px; 
-}
-
 #password {
-  margin-top: 25px; 
+  margin-top: 25px;
 }
 
 .d-grid .btn {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
