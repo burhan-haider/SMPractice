@@ -1,0 +1,405 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f3;
+}
+.left-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 240px;
+  background-color: white;
+  color: #000000;
+}
+
+.content {
+  margin-left: 270px;
+  margin-right: 270px;
+  padding: 20px;
+  background-color: #fff0f3;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.right-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 240px;
+  background-color: white;
+  color: #000000;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.left-sidebar h2 {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  background-color: white;
+  margin-right: 10px;
+  margin-left: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.message-box {
+  width: calc(100% - 40px); /* 40px = 20px (padding on both sides) */
+  padding: 1px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.message-box p {
+  margin-left: 50px;
+}
+
+.post-box {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.post-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-box textarea {
+  border: none;
+  border-bottom: 1px solid #d1d1d1;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-actions label {
+  color: #aaaaaa;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.post-actions input[type="file"] {
+  display: none;
+}
+
+.post-actions button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.post-actions button:hover {
+  background-color: #3e8e41;
+}
+
+.big-box {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.post-image {
+  margin-bottom: 20px;
+}
+
+.post-image img {
+  max-width: 100%;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.post-author {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-author h3 {
+  margin: 0;
+}
+
+.post-author p {
+  margin: 0;
+  color: #aaaaaa;
+  font-size: 16px;
+}
+
+.post-body {
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes-comments,
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.likes-comments button,
+.arrow button {
+  background-color: transparent;
+  border: none;
+  color: #aaaaaa;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.likes-comments button:hover,
+.arrow button:hover {
+  text-decoration: underline;
+}
+
+.likes-comments button i,
+.arrow button i {
+  margin-right: 5px;
+}
+
+.likes-comments span,
+.arrow span {
+  color: #aaaaaa;
+  font-size: 16px;
+}
+
+.user-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fff0f3;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 60px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.user-box h3 {
+  margin: 0;
+}
+
+.user-box p {
+  margin: 0;
+  color: #aaaaaa;
+  font-size: 16px;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: white;
+  margin-left: 26px;
+  margin-right: 10px;
+  height: 60px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.user-box1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: white;
+  height: 60px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.fa-user {
+  margin-right: 26px;
+}
+
+.fa-th-large {
+  margin-right: 22px;
+}
+
+.fa-users {
+  margin-right: 18px;
+}
+
+.fa-calendar {
+  margin-right: 22px;
+}
+
+h4 {
+  margin-left: 20px;
+  color: #aaaaaa;
+}
+
+.logo-header {
+  margin-left: 15px;
+}
+
+.chatbox {
+  background-color: rgb(180, 236, 180);
+  height: 500px;
+  width: 220px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+#chat-textarea {
+  margin-left: 10px;
+  width: 65%;
+  height: 13px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  margin-top: 10px;
+  background-color: pink;
+  overflow: hidden;
+}
+
+#send {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+#send:hover {
+  background-color: #3e8e41;
+}
+
+#send i {
+  margin-right: 5px;
+}
+
+#message {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 167px;
+  border-radius: 7px;
+}
+
+.chatbar button {
+  margin-top: 10px;
+}
+
+.chatbar {
+  display: flex;
+  align-items: center;
+}
+
+.chatbar textarea {
+  display: inline-block;
+  width: calc(100% - 40px); /* adjust width based on button size */
+  margin-right: 10px; /* adjust margin based on button spacing */
+  background-color: #fff0f3;
+  border: none;
+}
+
+.chatbar button {
+  display: inline-block;
+  width: 35px; /* adjust button width */
+}
+
+.m1 {
+  background-color: whitesmoke;
+  padding: 8px;
+  width: 40px;
+  height: 20px;
+  border-radius: 8px;
+  margin-left: 158px;
+}
+
+.m2 {
+  background-color: whitesmoke;
+  padding: 8px;
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+#m1 {
+  color: grey;
+  margin-left: 172px;
+  margin-top: -16px;
+  font-size: 12px;
+}
+
+#m2 {
+  color: grey;
+  margin-top: -16px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.content > p {
+  margin-top: -5px;
+  font-size: medium;
+  color: #aaaaaa;
+}
+
+.sidebar > h3 {
+  color: black;
+}
