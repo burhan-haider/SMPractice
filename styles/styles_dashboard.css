@@ -11,6 +11,7 @@ body {
   width: 240px;
   background-color: white;
   color: #000000;
+  overflow-y: scroll;
 }
 
 .content {
@@ -402,4 +403,32 @@ h4 {
 
 .sidebar > h3 {
   color: black;
+}
+
+#followers-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#followers-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#followers-list li img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+#followers-list li strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#followers-list li span {
+  font-size: 14px;
 }
